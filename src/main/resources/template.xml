@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"
+	xmlns:th="http://www.w3.org/1999/XSL/Transform">
+
+	<fo:layout-master-set>
+		<fo:simple-page-master master-name="master"
+			page-height="11in" page-width="8.5in" margin-top=".5in"
+			margin-bottom=".5in" margin-right=".5in">
+			<fo:region-body region-name="xsl-region-body" />
+
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+	<fo:bookmark-tree></fo:bookmark-tree>
+	<fo:page-sequence master-reference="master">
+		<fo:flow flow-name="xsl-region-body">
+			<fo:block>Lakshmi Testing by karampudi</fo:block>
+			<fo:block>
+				<fo:external-graphic content-height="10%"
+					src="file:///C:/Users/Lakshmi/Desktop/Java/generatepdfs/src/main/resources/apache-fop-logo1.jpg" />
+			</fo:block>
+			<fo:block>
+				<fo:table width="100%">
+					<fo:table-column column-width="10%" />
+					<fo:table-column column-width="90%" />
+					<fo:table-body>
+						<fo:table-row>
+							<fo:table-cell text-align="center">
+								<fo:block>
+									Lakshmi
+								</fo:block>
+							</fo:table-cell>
+							<fo:table-cell text-align="center">
+								<fo:block>
+									<fo:external-graphic content-height="10%"
+										src="classpath:/images/apache-fop-logo.jpg" />
+								</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+					</fo:table-body>
+				</fo:table>
+			</fo:block>
+
+		</fo:flow>
+
+
+	</fo:page-sequence>
+</fo:root>
