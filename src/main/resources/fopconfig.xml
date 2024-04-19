@@ -1,0 +1,41 @@
+<fop version="1.0">
+
+
+	<table-border-overpaint>true</table-border-overpaint>
+
+	<strict-configuration>true</strict-configuration>
+
+
+	<strict-validation>true</strict-validation>
+
+
+	<base>./</base>
+
+
+	<font-base>./</font-base>
+
+
+
+
+	<source-resolution>72</source-resolution>
+
+
+
+	<target-resolution>72</target-resolution>
+
+
+
+	<default-page-settings height="1lin"
+		width="8,26in" />
+
+
+
+
+	<fonts>
+
+
+		<auto-detect />
+
+	</fonts>
+
+</fop>
