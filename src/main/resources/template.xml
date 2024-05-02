@@ -16,7 +16,7 @@
 			<fo:block>Lakshmi Testing by karampudi</fo:block>
 			<fo:block>
 				<fo:external-graphic content-height="10%"
-					src="file:///C:/Users/Lakshmi/Desktop/Java/generatepdfs/src/main/resources/apache-fop-logo1.jpg" />
+					src="url(file:images/test_image.jpg)" />
 			</fo:block>
 			<fo:block>
 				<fo:table width="100%">

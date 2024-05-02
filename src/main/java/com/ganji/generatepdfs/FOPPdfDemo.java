@@ -41,8 +41,8 @@ public class FOPPdfDemo {
 		OutputStream out = null;
 		
 		try{
-			FopFactory fopFactory = FopFactory.newInstance(this.getClass().getClassLoader().getResource(CONFIGURATION_XML).toURI());
-			String outPutPath = "C://Users//Lakshmi//OneDrive//Documents//LogData" + "/" + "Lakshmi" + "-" + timeStamp
+			FopFactory fopFactory = FopFactory.newInstance(new File("D:\\forked_projects\\fop_test_sample\\src\\main\\resources\\configuration.xconf"));
+			String outPutPath = "D:\\forked_projects\\fop_test_sample" + "/" + "Lakshmi" + "-" + timeStamp
 					+ ".pdf";
 			File outPutFolder = new File(outPutPath);
 			outPutFolder.getParentFile().mkdir();
